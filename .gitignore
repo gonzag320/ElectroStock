@@ -1,0 +1,28 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Configuraciones privadas
+.env
+.env.*
+!.env.example
+
+# Respaldos y bases locales
+backups/*
+!backups/.gitkeep
+*.backup
+*.dump
+*.db
+*.sqlite3
+
+# Archivos temporales
+*.log
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
